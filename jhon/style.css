@@ -1,0 +1,39 @@
+.body{
+  background-color: azure;
+}
+.card-container{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 100px;
+}
+.card{
+width: 250px;
+background-color:#f0f0f0;
+border-radius: 8px;
+overflow: hidden;
+}
+.card-content{
+  font-size: 20px;
+}
+.button-wrapper {
+  text-align: center;
+}
+
+a.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: aqua;
+  color: black;
+  justify-content: center;
+  border-radius: 10px;
+  border: 1px solid black;
+  text-decoration: none;
+  font-weight: 600;
+   margin: 0 auto; 
+}
+
+.card-img{
+  width: 100%;
+  height: auto;
+}
